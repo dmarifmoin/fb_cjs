@@ -1,0 +1,10 @@
+function() {
+ var items = {{dlv - FB - Purchase Product}};
+ return items.map(function(items) { return items.item_id; }).join();
+}
+
+
+function() {
+ var getDataFromArray = {{dlv-Ecommerce Purchase product}};
+ return getDataFromArray.map(function(products) { return products.description; }).join();
+}
